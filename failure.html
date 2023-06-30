@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap.css">
+</head>
+<body>
+    <!-- <h1 style="text-align: center;">There was an error in adding you to the Newsletter. Try again</h1> -->
+    <div class="p-5 text-center bg-body-tertiary">
+        <div class="container py-5">
+          <h1 class="text-body-emphasis">Uh Oh!</h1>
+          <p class="col-lg-8 mx-auto lead">
+            There was a problem signing you up. Please try again or contact the developer!
+          </p>
+
+          <form action="/failure" method="post">
+            <button class="btn btn-lg btn-warning" type="submit" name="submit">Try Again</button>
+          </form>
+        </div>
+      </div>
+</body>
+</html>
